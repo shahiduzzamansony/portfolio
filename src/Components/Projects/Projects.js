@@ -1,11 +1,12 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
+import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
     <div>
       <Fade top>
-        <h1 className="text-5xl text-orange-600 text-center my-20">
+        <h1 className="text-5xl text-white text-center my-20">
           Recent Projects
         </h1>
       </Fade>
@@ -25,10 +26,13 @@ const Projects = () => {
             <div className="card-body">
               <h2 className="card-title">MotoLand</h2>
               <p>A used honda buy-sell website.</p>
-              <div className="card-actions justify-end">
+              <div className="card-actions justify-between">
+                <Link to="/motoland">
+                  <button className="btn btn-primary btn-xs">Details</button>
+                </Link>
                 <a
                   href="https://motoland-12.web.app/"
-                  className="btn btn-sm btn-primary"
+                  className="btn btn-xs btn-primary"
                 >
                   View
                 </a>
@@ -48,7 +52,10 @@ const Projects = () => {
             <div className="card-body">
               <h2 className="card-title">E-Tailor</h2>
               <p>Internet based tailoring service website.</p>
-              <div className="card-actions justify-end">
+              <div className="card-actions justify-between">
+                <Link to="/etailor">
+                  <button className="btn btn-primary btn-xs">Details</button>
+                </Link>
                 <a
                   href="https://e-tailor-7dd12.web.app/"
                   className="btn btn-primary btn-sm"
@@ -71,7 +78,10 @@ const Projects = () => {
             <div className="card-body">
               <h2 className="card-title">CSS Hacks</h2>
               <p>A website to buy css frameworks tutorials.</p>
-              <div className="card-actions justify-end">
+              <div className="card-actions justify-between">
+                <Link to="/csshacks">
+                  <button className="btn btn-primary btn-xs">Details</button>
+                </Link>
                 <a
                   href="https://educational-assignment-ten.web.app/"
                   className="btn btn-primary btn-sm"

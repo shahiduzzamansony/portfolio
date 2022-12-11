@@ -9,22 +9,22 @@ const Footer = () => {
         <div className="items-center grid-flow-col">
           <p>Copyright © 2022 - All right reserved by mdshahiduzzaman</p>
         </div>
-        <div className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+        <div className="grid-flow-col gap-4 md:place-self-center  md:justify-self-end">
           <a
             href="https://github.com/shahiduzzamansony"
-            className=" text-3xl text-primary"
+            className=" text-2xl text-primary"
           >
             <BsGithub></BsGithub>
           </a>
           <a
             href="https://www.linkedin.com/in/md-shahiduzzaman-a80231241/"
-            className=" text-3xl text-primary"
+            className=" text-2xl text-primary"
           >
             <BsLinkedin></BsLinkedin>
           </a>
           <a
             href="https://www.facebook.com/sony.jaman.1/"
-            className=" mb-3 text-3xl text-primary"
+            className=" text-2xl text-primary"
           >
             <BsFacebook></BsFacebook>
           </a>

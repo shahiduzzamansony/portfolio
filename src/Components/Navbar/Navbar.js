@@ -40,7 +40,7 @@ const Navbar = () => {
               </li>
 
               <li className="text-white">
-                <a href="/">About</a>
+                <a href="#about">About</a>
               </li>
               <div>
                 <a
@@ -70,7 +70,7 @@ const Navbar = () => {
               </a>
             </li>
             <li className="text-white">
-              <a href="/">About</a>
+              <a href="#about">About</a>
             </li>
           </ul>
         </div>
